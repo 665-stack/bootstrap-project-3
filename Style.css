@@ -1,0 +1,321 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+.navbar{
+  background: #474747;
+  padding: 1% 10%;
+  z-index: 1000;
+}
+.navbar .navbar-brand{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.nav-item .nav-link{
+  color: white;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+  transition: 0.3s;
+}
+.nav-item .nav-link:hover{
+  
+  border-radius: 10px;
+}
+.nav-item .nav-link:active{
+  
+}
+/*#navbarSupportedContent > ul > li:nth-child(n) > a{
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+  color: #00BF85;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:active {
+ color: #00BF85;
+}*/
+
+#navbarSupportedContent > button {
+  background: #00BF85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+}
+
+/*
+.banner{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: red;
+  border: 2px solid red;
+}
+.banner video{
+  width: 100%;
+  height: 100%;
+  pointer-events:none;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: red;
+}
+.banner-container{
+  height: 100vh;
+ 
+}
+.banner-contents h1{
+  font-size: 3.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  color: red;
+  background-color: white;
+}*/
+
+
+
+
+.mid{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid yellow;
+}
+.mid video{
+  width: 100%;
+  height: 100vh;
+  pointer-events:none;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.mid .hero{
+  position: relative;
+}
+.mid .hero p{
+  width:55%;
+  font-size: 1.1rem;
+  letter-spacing: 0.2px;
+  padding-bottom: 1rem;
+}
+.mid .hero a {
+  background: #00BF85;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.mid .hero a:hover {
+  background: #fff;
+}
+
+
+/*About section start here*/
+.About{
+  background-color: #000;
+}
+.About .text{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+.About .text h6{
+  color: #00BF7F;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.About .text h2{
+  color: #f7f5f4;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+.About .text p{
+  color: #f7f5f4;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.About .text a{
+  background: #00BF85;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #111;
+}
+/*About section ends here*/
+
+/*Discovery section starts from here*/
+.Discovery{
+ 
+}
+.Discovery .text{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+.Discovery .text h6{
+  color: #00BF7F;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.Discovery .text h2{
+  color:#111;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+.Discovery .text p{
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+.Discovery .text a{
+  background: #111;
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color:#fff;
+}
+/*Discovery section ends here*/
+
+/*Service section Stat here*/
+.Service{
+  background-color: #000000;
+}
+.Service .one{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 7px;
+}
+/*Service section ends here*/
+
+/*Sign section start here*/
+.Sign{
+ 
+}
+.Sign .text{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+.Sign .text h6{
+  color: #00BF7F;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.Sign .text h2{
+  color: #111;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+.Sign .text p{
+  color: ;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.Sign .text a{
+  background: #111;
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+/*Sign section ends here*/
+
+
+/*Footer start from here*/
+body > footer {
+  background-color: #111!important;
+}
+body > footer > ul.list-unstyled.list-inline.text-center.py-2 > li:nth-child(2) > a{
+  background: #00BF85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  border:none;
+  color: White;
+}
+/*Footer ends from here*/
+
+@media screen and (max-width:600px){
+    .nav-item .nav-link{
+       margin-bottom: 10px;
+    }
+}
+
+/*@media screen and (max-width: 988px){
+  .navbar{
+  padding: 1rem;
+}
+#navbarSupportedContent > ul{
+  padding-left: 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+  padding:0.8rem 0;
+}
+.mid .hero h2{
+  font-size: 2.5rem;
+}
+.mid .hero p {
+  font-size: 1rem;
+}
+.mid .hero a {
+  font-size: 0.9rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
